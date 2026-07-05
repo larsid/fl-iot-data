@@ -1,0 +1,665 @@
+{
+  "meta_seed": 42,
+  "rounds": 500,
+  "reps": 5,
+  "created_at": "2026-05-24 08:13:45 -0300",
+  "plan": [
+    {
+      "name": "level0_rep1",
+      "script": "experiment_level0.py",
+      "env_extra": {},
+      "seed": 1373158607
+    },
+    {
+      "name": "level0_rep2",
+      "script": "experiment_level0.py",
+      "env_extra": {},
+      "seed": 239081664
+    },
+    {
+      "name": "level0_rep3",
+      "script": "experiment_level0.py",
+      "env_extra": {},
+      "seed": 53710185
+    },
+    {
+      "name": "level0_rep4",
+      "script": "experiment_level0.py",
+      "env_extra": {},
+      "seed": 1592467582
+    },
+    {
+      "name": "level0_rep5",
+      "script": "experiment_level0.py",
+      "env_extra": {},
+      "seed": 590620972
+    },
+    {
+      "name": "level1_rep1",
+      "script": "experiment_level1.py",
+      "env_extra": {},
+      "seed": 525901257
+    },
+    {
+      "name": "level1_rep2",
+      "script": "experiment_level1.py",
+      "env_extra": {},
+      "seed": 479341424
+    },
+    {
+      "name": "level1_rep3",
+      "script": "experiment_level1.py",
+      "env_extra": {},
+      "seed": 299655413
+    },
+    {
+      "name": "level1_rep4",
+      "script": "experiment_level1.py",
+      "env_extra": {},
+      "seed": 1581559893
+    },
+    {
+      "name": "level1_rep5",
+      "script": "experiment_level1.py",
+      "env_extra": {},
+      "seed": 220106708
+    },
+    {
+      "name": "level2_rep1",
+      "script": "experiment_level2.py",
+      "env_extra": {},
+      "seed": 1453201079
+    },
+    {
+      "name": "level2_rep2",
+      "script": "experiment_level2.py",
+      "env_extra": {},
+      "seed": 1590571866
+    },
+    {
+      "name": "level2_rep3",
+      "script": "experiment_level2.py",
+      "env_extra": {},
+      "seed": 1915941033
+    },
+    {
+      "name": "level2_rep4",
+      "script": "experiment_level2.py",
+      "env_extra": {},
+      "seed": 1171165723
+    },
+    {
+      "name": "level2_rep5",
+      "script": "experiment_level2.py",
+      "env_extra": {},
+      "seed": 186699714
+    },
+    {
+      "name": "level3_rep1",
+      "script": "experiment_level3.py",
+      "env_extra": {},
+      "seed": 1268073013
+    },
+    {
+      "name": "level3_rep2",
+      "script": "experiment_level3.py",
+      "env_extra": {},
+      "seed": 906070221
+    },
+    {
+      "name": "level3_rep3",
+      "script": "experiment_level3.py",
+      "env_extra": {},
+      "seed": 68252794
+    },
+    {
+      "name": "level3_rep4",
+      "script": "experiment_level3.py",
+      "env_extra": {},
+      "seed": 63989048
+    },
+    {
+      "name": "level3_rep5",
+      "script": "experiment_level3.py",
+      "env_extra": {},
+      "seed": 201209006
+    },
+    {
+      "name": "level3_bw100_rep1",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "100"
+      },
+      "seed": 469521478
+    },
+    {
+      "name": "level3_bw100_rep2",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "100"
+      },
+      "seed": 499635469
+    },
+    {
+      "name": "level3_bw100_rep3",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "100"
+      },
+      "seed": 1085242217
+    },
+    {
+      "name": "level3_bw100_rep4",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "100"
+      },
+      "seed": 1292825379
+    },
+    {
+      "name": "level3_bw100_rep5",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "100"
+      },
+      "seed": 56985562
+    },
+    {
+      "name": "level3_bw50_rep1",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "50"
+      },
+      "seed": 1205264596
+    },
+    {
+      "name": "level3_bw50_rep2",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "50"
+      },
+      "seed": 427000597
+    },
+    {
+      "name": "level3_bw50_rep3",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "50"
+      },
+      "seed": 1537640409
+    },
+    {
+      "name": "level3_bw50_rep4",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "50"
+      },
+      "seed": 1395616197
+    },
+    {
+      "name": "level3_bw50_rep5",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "50"
+      },
+      "seed": 1506083911
+    },
+    {
+      "name": "level3_bw25_rep1",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "25"
+      },
+      "seed": 1170252924
+    },
+    {
+      "name": "level3_bw25_rep2",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "25"
+      },
+      "seed": 900911955
+    },
+    {
+      "name": "level3_bw25_rep3",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "25"
+      },
+      "seed": 473392625
+    },
+    {
+      "name": "level3_bw25_rep4",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "25"
+      },
+      "seed": 964669078
+    },
+    {
+      "name": "level3_bw25_rep5",
+      "script": "experiment_level3.py",
+      "env_extra": {
+        "BW": "25"
+      },
+      "seed": 1265438423
+    }
+  ],
+  "runs": [
+    {
+      "name": "level0_rep1",
+      "seed": 1373158607,
+      "started_at": "2026-05-29 19:38:29 -0300",
+      "finished_at": "2026-05-29 20:45:15 -0300",
+      "duration_s": 4005.7,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level0/20260529_193831",
+      "status": "ok"
+    },
+    {
+      "name": "level1_rep1",
+      "seed": 525901257,
+      "started_at": "2026-05-30 00:57:02 -0300",
+      "finished_at": "2026-05-30 02:09:38 -0300",
+      "duration_s": 4355.3,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level1/20260530_005704",
+      "status": "ok"
+    },
+    {
+      "name": "level2_rep1",
+      "seed": 1453201079,
+      "started_at": "2026-05-30 03:26:51 -0300",
+      "finished_at": "2026-05-30 04:38:52 -0300",
+      "duration_s": 4321.1,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level2/20260530_032653",
+      "status": "ok"
+    },
+    {
+      "name": "level3_rep1",
+      "seed": 1268073013,
+      "started_at": "2026-05-30 05:14:09 -0300",
+      "finished_at": "2026-05-30 06:21:44 -0300",
+      "duration_s": 4054.8,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level3/20260530_051411",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw100_rep1",
+      "seed": 469521478,
+      "started_at": "2026-05-30 10:32:14 -0300",
+      "finished_at": "2026-05-30 11:40:32 -0300",
+      "duration_s": 4098.0,
+      "env_extra": {
+        "BW": "100"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw100/20260530_103216",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw50_rep1",
+      "seed": 1205264596,
+      "started_at": "2026-05-30 13:47:58 -0300",
+      "finished_at": "2026-05-30 15:03:14 -0300",
+      "duration_s": 4516.3,
+      "env_extra": {
+        "BW": "50"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw50/20260530_134759",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw25_rep1",
+      "seed": 1170252924,
+      "started_at": "2026-05-30 15:07:51 -0300",
+      "finished_at": "2026-05-30 16:31:50 -0300",
+      "duration_s": 5038.5,
+      "env_extra": {
+        "BW": "25"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw25/20260530_150753",
+      "status": "ok"
+    },
+    {
+      "name": "level0_rep2",
+      "seed": 239081664,
+      "started_at": "2026-06-05 03:17:50 -0300",
+      "finished_at": "2026-06-05 04:24:45 -0300",
+      "duration_s": 4015.0,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level0/20260605_031752",
+      "status": "ok"
+    },
+    {
+      "name": "level0_rep3",
+      "seed": 53710185,
+      "started_at": "2026-06-05 07:32:34 -0300",
+      "finished_at": "2026-06-05 08:38:19 -0300",
+      "duration_s": 3945.3,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level0/20260605_073235",
+      "status": "ok"
+    },
+    {
+      "name": "level0_rep4",
+      "seed": 1592467582,
+      "started_at": "2026-06-05 13:00:47 -0300",
+      "finished_at": "2026-06-05 14:10:40 -0300",
+      "duration_s": 4192.6,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level0/20260605_130049",
+      "status": "ok"
+    },
+    {
+      "name": "level0_rep5",
+      "seed": 590620972,
+      "started_at": "2026-06-05 18:05:01 -0300",
+      "finished_at": "2026-06-05 19:14:40 -0300",
+      "duration_s": 4179.1,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level0/20260605_180502",
+      "status": "ok"
+    },
+    {
+      "name": "level1_rep2",
+      "seed": 479341424,
+      "started_at": "2026-06-05 20:12:18 -0300",
+      "finished_at": "2026-06-05 21:23:47 -0300",
+      "duration_s": 4288.4,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level1/20260605_201220",
+      "status": "ok"
+    },
+    {
+      "name": "level1_rep3",
+      "seed": 299655413,
+      "started_at": "2026-06-05 23:09:11 -0300",
+      "finished_at": "2026-06-06 00:18:51 -0300",
+      "duration_s": 4180.3,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level1/20260605_230913",
+      "status": "ok"
+    },
+    {
+      "name": "level1_rep4",
+      "seed": 1581559893,
+      "started_at": "2026-06-06 01:09:09 -0300",
+      "finished_at": "2026-06-06 02:19:17 -0300",
+      "duration_s": 4208.6,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level1/20260606_010910",
+      "status": "ok"
+    },
+    {
+      "name": "level1_rep5",
+      "seed": 220106708,
+      "started_at": "2026-06-06 03:11:09 -0300",
+      "finished_at": "2026-06-06 04:20:39 -0300",
+      "duration_s": 4170.8,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level1/20260606_031110",
+      "status": "ok"
+    },
+    {
+      "name": "level2_rep2",
+      "seed": 1590571866,
+      "started_at": "2026-06-06 05:30:01 -0300",
+      "finished_at": "2026-06-06 06:39:25 -0300",
+      "duration_s": 4163.3,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level2/20260606_053003",
+      "status": "ok"
+    },
+    {
+      "name": "level2_rep3",
+      "seed": 1915941033,
+      "started_at": "2026-06-06 07:25:35 -0300",
+      "finished_at": "2026-06-06 08:34:38 -0300",
+      "duration_s": 4142.9,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level2/20260606_072537",
+      "status": "ok"
+    },
+    {
+      "name": "level2_rep4",
+      "seed": 1171165723,
+      "started_at": "2026-06-06 12:18:05 -0300",
+      "finished_at": "2026-06-06 13:30:07 -0300",
+      "duration_s": 4322.2,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level2/20260606_121807",
+      "status": "ok"
+    },
+    {
+      "name": "level2_rep5",
+      "seed": 186699714,
+      "started_at": "2026-06-06 14:23:28 -0300",
+      "finished_at": "2026-06-06 15:35:47 -0300",
+      "duration_s": 4338.7,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level2/20260606_142330",
+      "status": "ok"
+    },
+    {
+      "name": "level3_rep2",
+      "seed": 906070221,
+      "started_at": "2026-06-06 16:06:25 -0300",
+      "finished_at": "2026-06-06 17:19:15 -0300",
+      "duration_s": 4370.3,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level3/20260606_160627",
+      "status": "ok"
+    },
+    {
+      "name": "level3_rep3",
+      "seed": 68252794,
+      "started_at": "2026-06-06 20:17:39 -0300",
+      "finished_at": "2026-06-06 21:30:04 -0300",
+      "duration_s": 4345.2,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level3/20260606_201740",
+      "status": "ok"
+    },
+    {
+      "name": "level3_rep4",
+      "seed": 63989048,
+      "started_at": "2026-06-06 21:59:35 -0300",
+      "finished_at": "2026-06-06 23:11:50 -0300",
+      "duration_s": 4335.6,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level3/20260606_215936",
+      "status": "ok"
+    },
+    {
+      "name": "level3_rep5",
+      "seed": 201209006,
+      "started_at": "2026-06-07 00:07:24 -0300",
+      "finished_at": "2026-06-07 01:18:45 -0300",
+      "duration_s": 4281.0,
+      "env_extra": {},
+      "rounds": 500,
+      "log_dir": "results/level3/20260607_000725",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw100_rep2",
+      "seed": 499635469,
+      "started_at": "2026-06-07 02:10:06 -0300",
+      "finished_at": "2026-06-07 03:19:47 -0300",
+      "duration_s": 4180.6,
+      "env_extra": {
+        "BW": "100"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw100/20260607_021008",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw100_rep3",
+      "seed": 1085242217,
+      "started_at": "2026-06-07 03:51:36 -0300",
+      "finished_at": "2026-06-07 05:01:51 -0300",
+      "duration_s": 4215.0,
+      "env_extra": {
+        "BW": "100"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw100/20260607_035138",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw100_rep4",
+      "seed": 1292825379,
+      "started_at": "2026-06-07 05:16:33 -0300",
+      "finished_at": "2026-06-07 06:26:35 -0300",
+      "duration_s": 4202.2,
+      "env_extra": {
+        "BW": "100"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw100/20260607_051635",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw100_rep5",
+      "seed": 56985562,
+      "started_at": "2026-06-07 09:38:54 -0300",
+      "finished_at": "2026-06-07 10:49:44 -0300",
+      "duration_s": 4250.1,
+      "env_extra": {
+        "BW": "100"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw100/20260607_093855",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw50_rep2",
+      "seed": 427000597,
+      "started_at": "2026-06-07 10:54:16 -0300",
+      "finished_at": "2026-06-07 12:10:07 -0300",
+      "duration_s": 4550.9,
+      "env_extra": {
+        "BW": "50"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw50/20260607_105417",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw50_rep3",
+      "seed": 1537640409,
+      "started_at": "2026-06-07 12:13:02 -0300",
+      "finished_at": "2026-06-07 13:29:28 -0300",
+      "duration_s": 4585.9,
+      "env_extra": {
+        "BW": "50"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw50/20260607_121303",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw50_rep4",
+      "seed": 1395616197,
+      "started_at": "2026-06-07 16:59:07 -0300",
+      "finished_at": "2026-06-07 18:16:11 -0300",
+      "duration_s": 4624.2,
+      "env_extra": {
+        "BW": "50"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw50/20260607_165909",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw50_rep5",
+      "seed": 1506083911,
+      "started_at": "2026-06-07 18:36:42 -0300",
+      "finished_at": "2026-06-07 19:52:44 -0300",
+      "duration_s": 4561.3,
+      "env_extra": {
+        "BW": "50"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw50/20260607_183644",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw25_rep2",
+      "seed": 900911955,
+      "started_at": "2026-06-07 20:13:45 -0300",
+      "finished_at": "2026-06-07 21:36:18 -0300",
+      "duration_s": 4952.8,
+      "env_extra": {
+        "BW": "25"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw25/20260607_201347",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw25_rep3",
+      "seed": 473392625,
+      "started_at": "2026-06-07 22:11:08 -0300",
+      "finished_at": "2026-06-07 23:33:37 -0300",
+      "duration_s": 4948.3,
+      "env_extra": {
+        "BW": "25"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw25/20260607_221110",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw25_rep4",
+      "seed": 964669078,
+      "started_at": "2026-06-07 23:54:56 -0300",
+      "finished_at": "2026-06-08 01:18:37 -0300",
+      "duration_s": 5021.2,
+      "env_extra": {
+        "BW": "25"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw25/20260607_235457",
+      "status": "ok"
+    },
+    {
+      "name": "level3_bw25_rep5",
+      "seed": 1265438423,
+      "started_at": "2026-06-08 01:20:01 -0300",
+      "finished_at": "2026-06-08 02:43:45 -0300",
+      "duration_s": 5023.4,
+      "env_extra": {
+        "BW": "25"
+      },
+      "rounds": 500,
+      "log_dir": "results/level3_bw25/20260608_012003",
+      "status": "ok"
+    }
+  ]
+}

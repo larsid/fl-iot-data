@@ -1,0 +1,55 @@
+{
+  "level": "3",
+  "controlled": true,
+  "rounds": 500,
+  "seed": 473392625,
+  "num_clients": 8,
+  "fl_params": {
+    "algorithm": "FedAvg",
+    "num_clients": 8,
+    "num_rounds": 500,
+    "local_epochs": 2,
+    "batch_size": 16,
+    "learning_rate": 0.01,
+    "optimizer": "SGD",
+    "dataset": "CIFAR-10",
+    "partition": "IID",
+    "model": "CNN3"
+  },
+  "client_resources": {
+    "cpus": 1,
+    "mem_limit": "1024m",
+    "memswap_limit": "1024m"
+  },
+  "client_bandwidth": {
+    "bw": 25
+  },
+  "server_resources": {
+    "cpus": 2,
+    "mem_limit": "4096m",
+    "memswap_limit": "4096m",
+    "cpuset_cpus": "0-3"
+  },
+  "server_bandwidth": {
+    "bw": 1000
+  },
+  "images": {
+    "server": "fl-server:latest",
+    "client": "fl-client:latest",
+    "collector": "fl-base:1.13.1"
+  },
+  "env_overrides": {
+    "pythonhashseed": "473392625",
+    "server_omp_num_threads": "2",
+    "server_mkl_num_threads": "2",
+    "client_omp_num_threads": "1",
+    "client_mkl_num_threads": "1"
+  },
+  "started_at": "2026-06-07 22:11:10 -0300",
+  "collector": {
+    "image": "fl-base:1.13.1",
+    "cpuset_cpus": "0-3",
+    "interval_s": 1,
+    "name_pattern": "^mn\\.(client_\\d+|server)$"
+  }
+}
