@@ -9,3 +9,4 @@ venv/
 .idea/
 
 experiments/data/cifar-10-batches-py/
+experiments/data/cifar-10-python.tar.gz

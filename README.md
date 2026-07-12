@@ -104,7 +104,8 @@ nada.
 | SO do host | Ubuntu 24.04 LTS (kernel 6.17) |
 | Docker | 29.4.3 (cgroups v2) |
 | Fogbed / clusternet | 1.3.0 / 0.9.3 |
-| Python (host e containers) | 3.9 |
+| Python nos containers | 3.9 |
+| Python no host | 3.9 ou 3.10 |
 | PyTorch / torchvision (containers) | 1.13.1+cpu / 0.14.1 |
 | Flower (containers) | 1.11.0 |
 
