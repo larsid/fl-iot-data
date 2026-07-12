@@ -112,11 +112,35 @@ nada.
 A stack dos containers é fixada em `experiments/docker/fl.Dockerfile`, o que congela as
 versões independentemente do host.
 
-## Referência base
+## Referências
 
-Wong, K.-S. et al. (2026), *An Empirical Study of Federated Learning on IoT-Edge Devices:
-Resource Allocation and Heterogeneity*, IEEE Transactions on Neural Networks and Learning
-Systems, vol. 37, n. 2, pp. 753–765.
+**Referência base** (estudo replicado):
+
+- Wong, K.-S. et al. (2026), *An Empirical Study of Federated Learning on IoT-Edge Devices:
+  Resource Allocation and Heterogeneity*, IEEE Transactions on Neural Networks and Learning
+  Systems, vol. 37, n. 2, pp. 753–765. DOI: 10.1109/TNNLS.2025.3611415.
+
+**Ferramentas e recursos utilizados:**
+
+- Coutinho, A.; Greve, F.; Prazeres, C.; Cardoso, J. (2018), *Fogbed: A Rapid-Prototyping
+  Emulation Environment for Fog Computing*, IEEE ICC 2018, pp. 1–7.
+  DOI: 10.1109/ICC.2018.8423003.
+- Coutinho, A. et al. (2023), *Rapid-Prototyping of Integrated Edge/Fog and DLT/Blockchain
+  Systems with Fogbed*, IEEE ICC 2023, pp. 622–627 — versão distribuída do Fogbed
+  (`fogbed`/`clusternet`) usada neste repositório. DOI: 10.1109/ICC45041.2023.10279234.
+- Beutel, D. J. et al. (2020), *Flower: A Friendly Federated Learning Framework*,
+  arXiv:2007.14390.
+- McMahan, H. B. et al. (2017), *Communication-Efficient Learning of Deep Networks from
+  Decentralized Data*, AISTATS 2017, PMLR vol. 54, pp. 1273–1282 — algoritmo FedAvg.
+- Lantz, B.; Heller, B.; McKeown, N. (2010), *A Network in a Laptop: Rapid Prototyping for
+  Software-Defined Networks*, ACM HotNets '10 — Mininet. DOI: 10.1145/1868447.1868466.
+- Peuster, M.; Karl, H.; van Rossem, S. (2016), *MeDICINE: Rapid Prototyping of
+  Production-Ready Network Services in Multi-PoP Environments*, IEEE NFV-SDN 2016,
+  pp. 148–153 — Containernet. DOI: 10.1109/NFV-SDN.2016.7919490.
+- Paszke, A. et al. (2019), *PyTorch: An Imperative Style, High-Performance Deep Learning
+  Library*, NeurIPS 2019, pp. 8024–8035.
+- Krizhevsky, A. (2009), *Learning Multiple Layers of Features from Tiny Images*, relatório
+  técnico, University of Toronto — dataset CIFAR-10.
 
 ## Licença
 
